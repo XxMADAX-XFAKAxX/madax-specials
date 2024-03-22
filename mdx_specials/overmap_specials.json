@@ -1,0 +1,102 @@
+[
+    {
+        "type": "overmap_special",
+        "id": "special bunker",
+        "overmaps": [ 
+                        { "point": [ 0, 0, 0 ], "overmap": "mdx_special_bunker_south" }, 
+                        { "point": [ 0, 0, -1 ], "overmap": "mdx_special_bunker_basement_1_south" },
+                        { "point": [ 0, 0, 1 ], "overmap": "mdx_special_bunker_roof_south" } 
+                    ],
+        "locations": [ "forest","field","forest_center","forest_trail","forest_with_swamp","forest_without_trail","land","swamp","wilderness" ],
+        "occurrences": [ 5, 100 ],
+        "flags": [ "MILITARY", "UNIQUE", "MAN_MADE", "WILDERNESS" ]
+    },
+
+
+    {
+        "type": "overmap_special",
+        "id": "omega outpost",
+        "overmaps": [ 
+                        { "point": [ 0, 0, 0 ], "overmap": "mdx_omega_outpost_south"}, 
+                        { "point": [ 0, 0, -1 ], "overmap": "mdx_omega_outpost_basement_1_south", "locations": [ "lake_water_cube" ] },
+                        { "point": [ 0, 0, -2 ], "overmap": "mdx_omega_outpost_basement_2_south", "locations": [ "lake_water_cube" ] },
+                        { "point": [ 0, 0, 1 ], "overmap": "mdx_omega_outpost_roof_south"} 
+                    ],
+        "locations": [ "lake_surface" ],
+        "occurrences": [ 5, 100 ],
+        "flags": [ "LAKE", "MAN_MADE", "UNIQUE", "MILITARY" ]
+    },
+
+
+    {
+        "type": "overmap_special",
+        "id": "police outpost",
+        "overmaps": [ 
+                        { "point": [ 0, 0, 0 ], "overmap": "mdx_police_outpost_south" }
+                    ],
+        "locations": [ "forest","field","forest_center","forest_trail","forest_with_swamp","forest_without_trail","land","swamp","wilderness" ],
+        "occurrences": [ 5, 100 ],
+        "flags": [ "UNIQUE", "MAN_MADE", "WILDERNESS" ]
+    },
+
+
+    {
+        "type": "overmap_special",
+        "id": "weaponry_warehouse",
+        "overmaps": [ 
+                        { "point": [ 0, 0, 0 ], "overmap": "mdx_weaponry_warehouse_south" },
+                        { "point": [ 0, 0, 1 ], "overmap": "mdx_weaponry_warehouse_2nd_floor_south" },
+                        { "point": [ 0, 0, 2 ], "overmap": "mdx_weaponry_warehouse_roof_south" }
+                    ],
+        "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road", "connection": "local_road", "from": [ 0, 0, 0 ] } ],
+        "locations": [ "forest","field","forest_center","forest_trail","forest_with_swamp","forest_without_trail","land","swamp","wilderness" ],
+        "occurrences": [ 5, 100 ],
+        "flags": [ "UNIQUE", "MAN_MADE", "WILDERNESS" ]
+    },
+
+
+    {
+        "type": "overmap_special",
+        "id": "cybernetic cache",
+        "overmaps": [ 
+                        { "point": [ 0, 0, 0 ], "overmap": "mdx_cybernetic_cache_south" }
+                    ],
+        "locations": [ "forest","field","forest_center","forest_trail","forest_with_swamp","forest_without_trail","land","swamp","wilderness" ],
+        "occurrences": [ 5 , 100 ],
+        "flags": [ "UNIQUE", "MAN_MADE", "WILDERNESS" ]
+    },
+
+
+
+    {
+        "type": "overmap_special",
+        "id": "special military base",
+        "overmaps": [
+            { "point": [ 1, 0, 0 ], "overmap": "mdx_special_military_base_1_north" }, 
+            { "point": [ 1, 0, 1 ], "overmap": "mdx_special_military_base_roof_1_north" },
+            { "point": [ 0, 0, 0 ], "overmap": "mdx_special_military_base_2_north" }, 
+            { "point": [ 0, 0, 1 ], "overmap": "mdx_special_military_base_roof_2_north" },
+            { "point": [ 1, 1, 0 ], "overmap": "mdx_special_military_base_3_north" }, 
+            { "point": [ 1, 1, 1 ], "overmap": "mdx_special_military_base_roof_3_north" },
+            { "point": [ 0, 1, 0 ], "overmap": "mdx_special_military_base_4_north" }, 
+            { "point": [ 0, 1, 1 ], "overmap": "mdx_special_military_base_roof_4_north" }
+                    ],
+        "connections": [ { "point": [ 0, 2, 0 ], "terrain": "road", "connection": "local_road", "from": [ 0, 0, 0 ] } ],
+        "locations": [ "forest","field","forest_center","forest_trail","forest_with_swamp","forest_without_trail","land","swamp","wilderness" ],
+        "occurrences": [ 5, 100 ],
+        "flags": [ "MILITARY", "UNIQUE", "MAN_MADE", "WILDERNESS" ]
+    },
+
+    {
+        "type": "overmap_special",
+        "id": "LMOE bunker",
+        "overmaps": [ 
+                { "point": [ 0, 0, 0 ], "overmap": "mdx_lmoe_bunker_south" }, 
+                { "point": [ 0, 0, -1 ], "overmap": "mdx_lmoe_bunker_basement_1_south" },
+                { "point": [ 0, 0, 1 ], "overmap": "mdx_lmoe_bunker_roof_south" } 
+                    ],
+        "locations": [ "forest","field","forest_center","forest_trail","forest_with_swamp","forest_without_trail","land","swamp","wilderness" ],
+        "occurrences": [ 5, 100 ],
+        "flags": ["UNIQUE", "MAN_MADE", "WILDERNESS" ]
+    }
+]

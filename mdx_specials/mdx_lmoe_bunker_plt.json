@@ -1,0 +1,123 @@
+[
+    {
+        "type":"palette",
+        "id":"mdx_lmoe_bunker_plt",
+        "terrain": {
+            "|": "t_wall_metal",
+            ".": "t_thconc_floor",
+            "-": "t_secretdoor_metal_c",
+            ",": "t_thconc_floor_olight",
+            "C": "t_thconc_floor",
+            "L": "t_thconc_floor",
+            "o": "t_thconc_floor",
+            "d": "t_thconc_floor",
+            "f": "t_thconc_floor",
+            "w": "t_thconc_floor",
+            "h": "t_thconc_floor",
+            "T": "t_thconc_floor",
+            "j": "t_thconc_floor",
+            "J": "t_thconc_floor",
+            "W": "t_thconc_floor",
+            "k": "t_thconc_floor",
+            "U": "t_thconc_floor",
+            "i": "t_thconc_floor",
+            "A": "t_thconc_floor",
+            "O": "t_thconc_floor",
+            "a": "t_thconc_floor",
+            "Q": "t_thconc_floor",
+            "q": "t_thconc_floor",
+            "E": "t_thconc_floor",
+            "H": "t_thconc_floor",
+            "e": "t_thconc_floor",
+            "Z": "t_thconc_floor",
+            "s": "t_thconc_floor",
+            "g": "t_thconc_floor",
+            "F": "t_thconc_floor",
+            "B": "t_thconc_floor",
+            "r": "t_thconc_floor",
+            "t": "t_thconc_floor",
+            "+": [["t_door_metal_c", 50], ["t_door_metal_locked", 50]],
+            "=": "t_window_bars",
+            "<": "t_ladder_down",
+            ">": "t_ladder_up"
+
+        },
+        "furniture": {
+            "S": [["f_gunsafe_ml", 90],["f_gunsafe_o", 10]],
+            "L": "f_locker",
+            "C": "f_rack_wood",
+            "J": "f_rack_wood",
+            "o": "f_shower",
+            "h": "f_punching_bag",
+            "j": "f_treadmill",
+            "k": "f_exercise",
+            "F": "f_fridge",
+            "t": "f_trashcan",
+            "r": "f_rack_coat",
+            "f": "f_sofa",
+            "w": "f_wardrobe",
+            "e": "f_bed",
+            "D": "f_desk",
+            "T": "f_table",
+            "i": "f_chair",
+            "d": "f_water_purifier",
+            "B": "f_bookcase",
+            "Q": "f_dishwasher",
+            "W": "f_washer",
+            "q": "f_oven",
+            "E": "f_fridge",
+            "s": "f_water_heater",
+            "A": "f_woodstove",
+            "O": "f_toilet",
+            "a": "f_locker",
+            "H": "f_sink",
+            "g": "f_active_backup_generator",
+            "U": "f_utility_shelf"
+        },
+
+    "items": {
+            "B": [ 
+                { "item": "manuals", "chance": 60 }, 
+                { "item": "textbooks", "chance": 40 } 
+            ],
+            "q": { "item": "SUS_oven", "chance": 80 },
+            "L": [ 
+                {"item": "lmoe_guns", "chance": 90, "repeat": [2, 5] }, 
+                { "item": "ammo", "chance": 40, "repeat": [ 2, 8 ] } 
+                ],
+            "r": [ 
+                { "item": "jackets", "chance": 25 }, 
+                { "item": "hatstore_hats", "chance": 25 }, 
+                { "item": "winter", "chance": 15 } 
+            ],
+            "w": { "item": "allclothes", "chance": 80, "repeat": [ 4, 10 ] },
+            "e": { "item": "bed", "chance": 70, "repeat": [ 1, 2 ] },
+            "D": { "item": "office", "chance": 70 },
+            "C": [ 
+                { "item": "SUS_pantry", "chance": 40, "repeat": [ 2, 6 ] }, 
+                { "item": "cannedfood", "chance": 60, "repeat": [ 2, 6 ] } 
+            ],
+            "J": { "item": "cannedfood", "chance": 60, "repeat": [ 10, 20 ] } ,
+            "F": { "item": "SUS_fridge", "chance": 80, "repeat": [ 1, 4 ] },
+            "Q": { "item": "SUS_dishwasher", "chance": 80 },
+            "U":[                 
+                {"item": "lmoe_bunker_safe_guns", "chance": 80, "repeat": [ 10, 20 ]},
+                {"item": "lmoe_bunker_safe_atc", "chance": 50, "repeat": [ 0, 10 ]},
+                { "item": "lmoe_bunker_safe_mags", "chance": 70, "repeat": [ 10, 35 ]}
+            ],
+            "a":[
+                { "item": "SUS_gunstore_gear", "chance": 80, "repeat": [2, 8] },
+                { "item": "arsenal_armor_collection", "chance": 50}
+            ],
+            "S":[
+                { "item": "lmoe_bunker_safe_ammo", "chance": 70, "repeat": [100,180] },
+                { "item": "lmoe_bunker_safe_mods", "chance": 50, "repeat": [0,10] }
+            ]
+            },
+
+    "monster": {
+        "Z": { "monster": "mon_zombie_survivor_elite", "chance": 50 }
+        }
+    }
+]
+

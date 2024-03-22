@@ -1,0 +1,19 @@
+[
+    {
+        "type":"palette",
+        "id":"mdx_cybernetic_cache_plt",
+        "terrain": {
+            "|": "t_wall_metal",
+            ".": [ [ "t_region_soil", 20 ], [ "t_dirtmound", 20 ], ["t_region_groundcover", 20] ],
+            " ": ["t_region_groundcover"] ,
+            "c": ["t_thconc_floor"]
+          },
+          "furniture": {
+            "c": [ "f_metal_crate_r", "f_metal_crate_c" ]
+          },
+
+    "items": {
+        "c": {"item": "cybernetic_cache_cbm", "chance": 60, "repeat": [4 , 12]}
+        }
+    }
+]

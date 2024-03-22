@@ -1,0 +1,97 @@
+[
+    {
+        "type":"palette",
+        "id":"mdx_omega_outpost_plt",
+    "terrain": {
+        "|": "t_wall_metal",
+        ".": "t_thconc_floor",
+        "'": "t_thconc_floor_olight",
+        "<": "t_ladder_down",
+        ">": "t_ladder_up",
+        "*": [["t_door_metal_c", 10], ["t_door_metal_locked", 90]],
+        "+": [["t_door_metal_c", 90], ["t_door_metal_locked", 10]],
+        "r": "t_thconc_floor",
+        "t": "t_thconc_floor",
+        "?": "t_thconc_floor",
+        "=": "t_thconc_floor",
+        "m": "t_thconc_floor",
+        "a": "t_thconc_floor",
+        "w": "t_thconc_floor",
+        "o": "t_thconc_floor",
+        "{": "t_thconc_floor",
+        "s": "t_thconc_floor",
+        "f": "t_thconc_floor",
+        "X": "t_thconc_floor",
+        "O": "t_thconc_floor",
+        "Q": "t_thconc_floor",
+        "q": "t_thconc_floor",
+        "D": "t_thconc_floor",
+        "B": "t_thconc_floor"
+    },
+
+    "furniture": {
+        "Q": "f_autodoc_couch",
+        "D": "f_desk",
+        "q": "f_autodoc",
+        "r": "f_rack_coat",
+        "=": "f_bed",
+        "O": "f_shower",
+        "a": "f_locker",
+        "w": "f_locker",
+        "m": "f_bigmirror",
+        "t": "f_trashcan",
+        "?": "f_wardrobe",
+        "o": "f_toilet",
+        "{": "f_bookcase",
+        "s": "f_sofa",
+        "B": "f_gunsafe_ml",
+        "M": "f_locker",
+        "f": "f_rack_wood"
+    },
+
+    "items": {
+        "B":[
+            { "item": "omega_outpost_cbm", "chance": 60, "repeat": [4,8]}
+        ],
+        "{": [ 
+            { "item": "manuals", "chance": 60 }, 
+            { "item": "textbooks", "chance": 40 } 
+        ],
+        "f": [ 
+            { "item": "SUS_pantry", "chance": 50, "repeat": [ 5, 10 ] }, 
+            { "item": "cannedfood", "chance": 50, "repeat": [ 5, 10 ] } 
+        ],
+        "=": { "item": "bed", "chance": 70, "repeat": [ 1, 2 ] },
+        "r": [ 
+            { "item": "jackets", "chance": 25 }, 
+            { "item": "hatstore_hats", "chance": 25 }, 
+            { "item": "winter", "chance": 15 } 
+        ],
+        "a":[
+            { "item": "SUS_gunstore_gear", "chance": 60, "repeat": [5, 10] },
+            { "item": "arsenal_armor_collection", "chance": 20}
+        ],
+
+        "w":[
+            { "item": "omega_outpost_guns", "chance": 40, "repeat": [4, 10] },
+            { "item": "omega_outpost_mags", "chance": 50, "repeat": [5, 10]},
+            { "item": "omega_outpost_ammo", "chance": 70, "repeat": [80 , 120]},
+            { "item": "omega_outpost_atc", "chance": 60, "repeat": [0 , 5]},
+            { "item": "omega_outpost_mods", "chance": 40, "repeat": [0 , 4]}
+        ],
+
+        "?": { "item": "allclothes", "chance": 80, "repeat": [ 4, 10 ] },
+
+        "M":[
+            { "item": "harddrugs", "chance": 80, "repeat": [ 5, 10 ] },
+            { "item": "softdrugs", "chance": 80, "repeat": [ 5, 10 ] },
+            { "item": "gear_medical", "chance": 50, "repeat": [ 2, 10 ] }
+        ]
+        },
+
+    "monster": {
+        "X": { "monster": [["mon_turret_rifle", 50], ["mon_turret_bmg", 25], ["mon_crows_m240", 25]] },
+        "Z": { "monster": "mon_zombie_bio_op2", "chance": 30 }
+        }
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "type":"palette",
+        "id":"mdx_weaponry_warehouse_plt",
+        "terrain": {
+            "_": "t_pavement",
+            "|": "t_concrete_wall",
+            ".": "t_thconc_floor",
+            "+": [["t_door_metal_c", 90], ["t_door_metal_locked", 10]],            
+            "M": "t_metal_floor",
+            "#": "t_grate",
+            "m": "t_thconc_floor",
+            "p": "t_thconc_floor",
+            "t": "t_thconc_floor",
+            "S": "t_thconc_floor",
+            "C": "t_thconc_floor",
+            "G": "t_thconc_floor",
+            ">": "t_ladder_up"
+        },
+        "furniture": {
+            "m": "f_manual_tire_changer",
+            "t": "f_toilet",
+            "S": "f_utility_shelf",
+            "p": "f_hydraulic_press",
+            "C": "f_crate_c",
+            "G": "f_gunsafe_ml"
+        },
+
+    "items": {
+        "C": { "item": "mechanics", "chance": 80, "repeat": [ 4, 8 ] },
+        "S": { "item": "SUS_welding_gear", "chance": 80, "repeat": [ 2, 8 ] },
+        "G": [
+            {"item": "weaponry_warehouse_guns", "chance": 70, "repeat": [4, 10]},
+            {"item": "weaponry_warehouse_mags", "chance": 60, "repeat": [6, 20]},
+            {"item": "weaponry_warehouse_ammo", "chance": 80, "repeat": [80, 160]},
+            {"item": "weaponry_warehouse_atc", "chance": 50, "repeat": [5, 10]},
+            {"item": "weaponry_warehouse_mods", "chance": 25, "repeat": [1, 8]}
+        ]
+        },
+
+    "monster": {
+
+        }
+    }
+]

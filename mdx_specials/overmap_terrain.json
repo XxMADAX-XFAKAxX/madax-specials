@@ -1,0 +1,220 @@
+[
+    {
+        "id": "mdx_special_bunker_basement_1",
+        "type": "overmap_terrain",
+        "name": "special bunker basement",
+        "sym": "B",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_special_bunker",
+        "type": "overmap_terrain",
+        "name": "special bunker",
+        "sym": "B",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_special_bunker_roof",
+        "type": "overmap_terrain",
+        "name": "special bunker roof",
+        "sym": "B",
+        "color": "i_red",
+        "see_cost": 2
+    },    
+
+
+
+    {
+        "id": "mdx_police_outpost",
+        "type": "overmap_terrain",
+        "name": "police outpost",
+        "sym": "O",
+        "color": "cyan",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+
+
+
+    {
+        "id": "mdx_special_military_base_1",
+        "type": "overmap_terrain",
+        "name": "special military base",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_special_military_base_roof_1",
+        "type": "overmap_terrain",
+        "name": "special military base roof",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 2
+    },
+    {
+        "id": "mdx_special_military_base_2",
+        "type": "overmap_terrain",
+        "name": "special military base",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_special_military_base_roof_2",
+        "type": "overmap_terrain",
+        "name": "special military base roof",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 2
+    },
+    {
+        "id": "mdx_special_military_base_3",
+        "type": "overmap_terrain",
+        "name": "special military base",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_special_military_base_roof_3",
+        "type": "overmap_terrain",
+        "name": "special military base roof",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 2
+    },
+    {
+        "id": "mdx_special_military_base_4",
+        "type": "overmap_terrain",
+        "name": "special military base",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_special_military_base_roof_4",
+        "type": "overmap_terrain",
+        "name": "special military base roof",
+        "sym": "B",
+        "color": "i_blue",
+        "see_cost": 2
+    },
+      
+
+
+    {
+        "id": "mdx_lmoe_bunker_basement_1",
+        "type": "overmap_terrain",
+        "name": "LMOE bunker basement",
+        "sym": "+",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_lmoe_bunker",
+        "type": "overmap_terrain",
+        "name": "LMOE bunker",
+        "sym": "+",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_lmoe_bunker_roof",
+        "type": "overmap_terrain",
+        "name": "LMOE bunker roof",
+        "sym": "+",
+        "color": "i_red",
+        "see_cost": 2
+    },
+    
+
+
+    {
+        "id": "mdx_omega_outpost_basement_1",
+        "type": "overmap_terrain",
+        "name": "omega outpost basement",
+        "sym": "O",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_omega_outpost_basement_2",
+        "type": "overmap_terrain",
+        "name": "omega outpost 2nd basement",
+        "sym": "O",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_omega_outpost",
+        "type": "overmap_terrain",
+        "name": "omega outpost",
+        "sym": "O",
+        "color": "i_red",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_omega_outpost_roof",
+        "type": "overmap_terrain",
+        "name": "omega outpost roof",
+        "sym": "O",
+        "color": "i_red",
+        "see_cost": 2
+    },
+
+
+
+    {
+        "id": "mdx_cybernetic_cache",
+        "type": "overmap_terrain",
+        "name": "cybernetic cache",
+        "sym": "C",
+        "color": "i_yellow",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+
+
+
+    {
+        "id": "mdx_weaponry_warehouse",
+        "type": "overmap_terrain",
+        "name": "weaponry warehouse",
+        "sym": "W",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_weaponry_warehouse_2nd_floor",
+        "type": "overmap_terrain",
+        "name": "weaponry warehouse 2nd floor",
+        "sym": "W",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    },
+    {
+        "id": "mdx_weaponry_warehouse_roof",
+        "type": "overmap_terrain",
+        "name": "weaponry warehouse roof",
+        "sym": "W",
+        "color": "i_blue",
+        "see_cost": 10,
+        "mondensity": 2
+    }
+]

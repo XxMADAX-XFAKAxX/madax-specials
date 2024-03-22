@@ -1,0 +1,13 @@
+[
+    {
+        "type": "MOD_INFO",
+        "ident": "mdx_specials",
+        "name": "MADAX Specials",
+        "authors": [ "XxMADAX_XFAKAxX" ],
+        "maintainers": [ "XxMADAX_XFAKAxX" ],
+        "description": "Add's new special locations to loot",
+        "category": "buildings",
+        "dependencies": [ "dda" ],
+        "obsolete": false
+    }
+]

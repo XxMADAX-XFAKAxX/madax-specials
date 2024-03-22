@@ -1,0 +1,51 @@
+[
+    {
+        "type":"palette",
+        "id":"mdx_police_outpost_plt",
+        "terrain": {
+            "=": "t_dirt",
+            "L": "t_dirt",
+            "F": "t_dirt",
+            "T": "t_dirt",
+            "s": "t_dirt",
+            "a": "t_dirt",
+            "c": "t_dirt",
+            "C": "t_dirt",
+            "+": "t_dirt",
+            "|": "t_dirt",
+            ".": "t_dirt"
+        },
+        "furniture": {
+           "=": "f_bed",
+           "L": "f_locker",
+           "F": "f_crate_o",
+           "T": "f_table",
+           "c": "f_chair",
+           "C": "f_crate_o",
+           "s": "f_sofa",
+           "a": "f_armchair",
+           "|": "f_canvas_wall",
+           ".": "f_fema_groundsheet",
+           "+": "f_canvas_door"
+        },
+    "items": {
+            "F":[
+                { "item": "SUS_fridge", "chance": 40, "repeat": [ 1, 3 ] },
+                { "item": "kitchen", "chance": 20, "repeat": [ 1, 3 ] }
+            ],
+
+            "L":[
+                { "item": "cop_items", "chance": 30, "repeat": [1,2] },
+                { "item": "cop_armory", "chance": 30 },
+                { "item": "cop_locker", "chance": 30, "repeat": [1,2] }
+            ],
+
+            "C":[
+                { "item": "police_armory_any_shotgun", "chance": 5 },
+                { "item": "police_armory_any_pistol", "chance": 5 },
+                { "item": "police_armory_any_assaultrifle", "chance": 5 },
+                { "item": "police_armory_any_sniperrifle", "chance": 5 }
+            ]
+            }
+        }
+]
