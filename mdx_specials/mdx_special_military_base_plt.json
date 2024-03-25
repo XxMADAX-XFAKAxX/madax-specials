@@ -39,7 +39,11 @@
            "w": "t_thconc_floor",
            "W": "t_thconc_floor",
            "Z": "t_thconc_floor",
-           "z": "t_thconc_floor"
+           "z": "t_thconc_floor",
+           "2": "t_thconc_floor",
+           "M": "t_metal_floor",
+           "#": "t_grate",
+           "C": "t_thconc_floor"
         },
 
         "furniture": {
@@ -67,7 +71,8 @@
            "q": "f_autodoc",
            "Q": "f_autodoc_couch",
            "w": "f_autoclave",
-           "W": "f_safe_l"
+           "W": "f_safe_l",
+           "C": "f_crate_c"
         },
 
     "items": {
@@ -98,14 +103,26 @@
             ],
             "W":[
                 { "item": "special_military_base_cbm", "chance": 80, "repeat": [8,12]}
+            ],
+            "C":[ 
+                { "item": "mechanics", "chance": 40, "repeat": [ 4, 8 ] },
+                { "item": "SUS_welding_gear", "chance": 50, "repeat": [ 2, 6 ] }
             ]
             },
 
     "monster": {
         "X": { "monster": [["mon_turret_rifle", 50], ["mon_turret_bmg", 25], ["mon_crows_m240", 25]] },
-        "x": { "monster": [["mon_secubot", 60], ["mon_dispatch", 10], ["mon_dispatch_military", 5]]},
+        "x": { "monster": [["mon_secubot", 90], ["mon_dispatch", 6], ["mon_dispatch_military", 4]]},
         "Z": { "monster": [["mon_zombie_soldier_blackops_1", 20], ["mon_zombie_soldier_blackops_2", 20], ["mon_zombie_soldier_acid_2", 10], ["mon_zombie_bio_op2", 2], ["mon_zombie_kevlar_2", 2]]},
         "z": { "monster": [["mon_zombie_soldier", 60], ["mon_zombie_kevlar_0", 10], ["mon_zombie_bio_op", 5], ["mon_zombie_armored", 5], ["mon_zombie_kevlar_1", 5]]}
-        }
+        },
+
+        "computers": {
+            "2": {
+                "name": "M.O.S v0.22 System",
+                "access_denied": "ERROR!!! LOCKDOWN!!!!",
+                "security": 100
+            }
+          }
     }
 ]

@@ -36,7 +36,7 @@
             "B": "t_thconc_floor",
             "r": "t_thconc_floor",
             "t": "t_thconc_floor",
-            "+": [["t_door_metal_c", 50], ["t_door_metal_locked", 50]],
+            "+": ["t_door_metal_c"],
             "=": "t_window_bars",
             "<": "t_ladder_down",
             ">": "t_ladder_up"

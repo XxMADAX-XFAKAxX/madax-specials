@@ -6,7 +6,7 @@
             "_": "t_pavement",
             "|": "t_concrete_wall",
             ".": "t_thconc_floor",
-            "+": [["t_door_metal_c", 90], ["t_door_metal_locked", 10]],            
+            "+": ["t_door_metal_c"],            
             "M": "t_metal_floor",
             "#": "t_grate",
             "m": "t_thconc_floor",
@@ -15,7 +15,10 @@
             "S": "t_thconc_floor",
             "C": "t_thconc_floor",
             "G": "t_thconc_floor",
-            ">": "t_ladder_up"
+            ">": "t_ladder_up",
+            "*": "t_door_metal_locked",
+            "X": "t_gates_mech_control",
+            "x": "t_thconc_floor"
         },
         "furniture": {
             "m": "f_manual_tire_changer",
@@ -28,7 +31,7 @@
 
     "items": {
         "C": { "item": "mechanics", "chance": 80, "repeat": [ 4, 8 ] },
-        "S": { "item": "SUS_welding_gear", "chance": 80, "repeat": [ 2, 8 ] },
+        "S": { "item": "SUS_welding_gear", "chance": 80, "repeat": [ 2, 4 ] },
         "G": [
             {"item": "weaponry_warehouse_guns", "chance": 70, "repeat": [4, 10]},
             {"item": "weaponry_warehouse_mags", "chance": 60, "repeat": [6, 20]},
@@ -40,6 +43,15 @@
 
     "monster": {
 
-        }
+        },
+
+        "computers": {
+            "x": {
+              "name": "Smat v0.2 - Door Access",
+              "security": 4,
+              "options": [ { "name": "Unlock Front Door", "action": "unlock" } ],
+              "failures": [ { "action": "shutdown" }, { "action": "alarm" } ]
+            }
+          }
     }
 ]

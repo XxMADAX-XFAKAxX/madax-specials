@@ -4,11 +4,11 @@
         "id":"mdx_special_bunker_plt",
         "terrain": {
            "|": "t_wall_metal",
-           "+": [["t_door_metal_c", 90], ["t_door_metal_locked", 10]],
+           "+": ["t_door_metal_c"],
            ".": "t_thconc_floor",
            "<": "t_ladder_down",
            ">": "t_ladder_up",
-           "*": [["t_door_metal_c", 10], ["t_door_metal_locked", 90]],
+           "*": ["t_door_metal_locked"],
            "_": "t_thconc_floor",
            ",": "t_thconc_floor_olight",
            "x": "t_thconc_floor",
@@ -33,7 +33,8 @@
            "a": "t_thconc_floor",
            "w": "t_thconc_floor",
            "g": "t_thconc_floor",
-           "q": "t_thconc_floor"
+           "q": "t_thconc_floor",
+           "1": "t_card_military"
 
         },
         "furniture": {

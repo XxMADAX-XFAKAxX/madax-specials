@@ -15,9 +15,9 @@
                 "|....|..CC..M#MMM#M|    ",
                 "|....+......M#MMM#M|    ",
                 "|....|......M#MMM#M|    ",
-                "||+|||||+|||M#MMM#M|    ",
-                "     |G...>|.......|    ",
-                "     |G....||.....||    ",
+                "|||*|||+||||M#MMM#M|    ",
+                "    x|G...>|X......|    ",
+                "     |G....||*****||    ",
                 "     |GGGGG|.......|    ",
                 "     |||||||.......|    ",
                 "           |.......|    ",
@@ -35,7 +35,7 @@
         "palettes": [ "mdx_weaponry_warehouse_plt" ],
         "terrain": { " ": "t_region_groundcover" },
         "place_vehicles": [
-            { "vehicle": "weaponry_warehouse_car", "x": [ 16 ], "y": [ 16 ], "chance": 80, "rotation": 90, "status": 0 }
+            { "vehicle": "weaponry_warehouse_car", "x": [ 16 ], "y": [ 5 ], "chance": 50, "rotation": 90, "status": 0 }
           ]
         }
     },

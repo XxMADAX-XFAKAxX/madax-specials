@@ -8,8 +8,8 @@
         "'": "t_thconc_floor_olight",
         "<": "t_ladder_down",
         ">": "t_ladder_up",
-        "*": [["t_door_metal_c", 10], ["t_door_metal_locked", 90]],
-        "+": [["t_door_metal_c", 90], ["t_door_metal_locked", 10]],
+        "*": ["t_door_metal_locked"],
+        "+": ["t_door_metal_c"],
         "r": "t_thconc_floor",
         "t": "t_thconc_floor",
         "?": "t_thconc_floor",
@@ -26,7 +26,8 @@
         "Q": "t_thconc_floor",
         "q": "t_thconc_floor",
         "D": "t_thconc_floor",
-        "B": "t_thconc_floor"
+        "B": "t_thconc_floor",
+        "6": "t_card_military"
     },
 
     "furniture": {
