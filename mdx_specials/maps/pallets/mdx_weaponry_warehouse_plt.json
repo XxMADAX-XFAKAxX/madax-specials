@@ -37,7 +37,10 @@
             {"item": "weaponry_warehouse_mags", "chance": 60, "repeat": [6, 20]},
             {"item": "weaponry_warehouse_ammo", "chance": 80, "repeat": [80, 160]},
             {"item": "weaponry_warehouse_atc", "chance": 50, "repeat": [5, 10]},
-            {"item": "weaponry_warehouse_mods", "chance": 25, "repeat": [1, 8]}
+            {"item": "weaponry_warehouse_mods", "chance": 25, "repeat": [1, 8]},
+            {"item": "nested_mdx_attachments_all", "chance": 75, "repeat": [3, 15]},
+            {"item": "nested_mdx_9mm_guns_all", "chance": 85, "repeat": [1, 9]},
+            {"item": "nested_mdx_9mm_mags_all", "chance": 80, "repeat": [4, 10]}
         ]
         },
 

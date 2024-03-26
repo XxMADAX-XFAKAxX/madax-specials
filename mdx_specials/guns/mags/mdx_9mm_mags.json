@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mdx_lebedev_p15_mag26",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "PL-15 26-round magazine" },
+    "description": "An extended-capacity 26-round box magazine for use with the Lebedev PL-15 handgun.",
+    "weight": "122 g",
+    "volume": "88 ml",
+    "longest_side": "142 mm",
+    "price": 3100,
+    "price_postapoc": 180,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "9mm" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 26 } } ]
+  },
+  {
+    "id": "mdx_lebedev_p15_mag18",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "PL-15 18-round magazine" },
+    "description": "An 18-round box magazine for use with the Lebedev PL-15 handgun.",
+    "weight": "92 g",
+    "volume": "77 ml",
+    "longest_side": "132 mm",
+    "price": 2750,
+    "price_postapoc": 135,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "9mm" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 18 } } ]
+  }
+]

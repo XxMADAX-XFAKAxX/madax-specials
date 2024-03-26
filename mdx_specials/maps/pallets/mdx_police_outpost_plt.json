@@ -44,7 +44,10 @@
                 { "item": "police_armory_any_shotgun", "chance": 5 },
                 { "item": "police_armory_any_pistol", "chance": 5 },
                 { "item": "police_armory_any_assaultrifle", "chance": 5 },
-                { "item": "police_armory_any_sniperrifle", "chance": 5 }
+                { "item": "police_armory_any_sniperrifle", "chance": 5 },
+                {"item": "nested_mdx_attachments_all", "chance": 45, "repeat": [3, 15]},
+                {"item": "nested_mdx_9mm_guns_all", "chance": 35, "repeat": [1, 9]},
+                {"item": "nested_mdx_9mm_mags_all", "chance": 50, "repeat": [4, 10]}
             ]
             }
         }

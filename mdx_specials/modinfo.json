@@ -5,8 +5,8 @@
         "name": "MADAX Specials",
         "authors": [ "XxMADAX_XFAKAxX" ],
         "maintainers": [ "XxMADAX_XFAKAxX" ],
-        "description": "Add's new special locations to loot",
-        "category": "buildings",
+        "description": "Add's couple of new things",
+        "category": "content",
         "dependencies": [ "dda" ],
         "obsolete": false
     }

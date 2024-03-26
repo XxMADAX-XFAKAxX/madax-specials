@@ -76,7 +76,10 @@
         "q":[
             { "item": "special_bunker_guns", "chance": 80, "repeat": [5,15]},
             { "item": "special_bunker_atc", "chance": 50, "repeat": [2,8]},
-            { "item": "special_bunker_mods", "chance": 50, "repeat": [0,8]}
+            { "item": "special_bunker_mods", "chance": 50, "repeat": [0,8]},
+            { "item": "nested_mdx_attachments_all", "chance": 75, "repeat": [3, 15]},
+            { "item": "nested_mdx_9mm_guns_all", "chance": 70, "repeat": [1, 9]},
+            { "item": "nested_mdx_9mm_mags_all", "chance": 60, "repeat": [4, 10]}
         ],
         "W": { "item": "arsenal_armor_collection", "chance": 90},
         "f": { "item": "SUS_fridge", "chance": 100, "repeat": [1,3]}
