@@ -81,9 +81,8 @@
                 { "item": "textbooks", "chance": 40 } 
             ],
             "q": { "item": "SUS_oven", "chance": 80 },
-            "L": [ 
-                {"item": "lmoe_guns", "chance": 90, "repeat": [2, 5] }, 
-                { "item": "ammo", "chance": 40, "repeat": [ 2, 8 ] } 
+            "L": [
+                {"item": "mdx_lmoe_bunker_guns", "chance": 100}
                 ],
             "r": [ 
                 { "item": "jackets", "chance": 25 }, 
@@ -101,20 +100,16 @@
             "F": { "item": "SUS_fridge", "chance": 80, "repeat": [ 1, 4 ] },
             "Q": { "item": "SUS_dishwasher", "chance": 80 },
             "U":[                 
-                {"item": "lmoe_bunker_safe_guns", "chance": 80, "repeat": [ 10, 20 ]},
-                {"item": "lmoe_bunker_safe_atc", "chance": 50, "repeat": [ 0, 10 ]},
-                { "item": "lmoe_bunker_safe_mags", "chance": 70, "repeat": [ 10, 35 ]},
-                {"item": "nested_mdx_9mm_guns_all", "chance": 55, "repeat": [1, 9]},
-                {"item": "nested_mdx_9mm_mags_all", "chance": 75, "repeat": [4, 10]}
+                {"item": "mdx_lmoe_bunker_guns", "chance": 60, "repeat": [4,10]},
+                {"item": "mdx_lmoe_bunker_mags", "chance": 60, "repeat": [10,25]}
             ],
             "a":[
                 { "item": "SUS_gunstore_gear", "chance": 80, "repeat": [2, 8] },
                 { "item": "arsenal_armor_collection", "chance": 50}
             ],
             "S":[
-                { "item": "lmoe_bunker_safe_ammo", "chance": 70, "repeat": [100,180] },
-                { "item": "lmoe_bunker_safe_mods", "chance": 50, "repeat": [0,10] },
-                {"item": "nested_mdx_attachments_all", "chance": 65, "repeat": [3, 15]}
+                {"item": "mdx_lmoe_bunker_ammo", "chance": 60, "repeat": [100,200]},
+                {"item": "mdx_lmoe_bunker_mods", "chance": 60, "repeat": [4,12]}
             ]
             },
 

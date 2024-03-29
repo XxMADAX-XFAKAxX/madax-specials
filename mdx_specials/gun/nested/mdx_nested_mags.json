@@ -12,8 +12,8 @@
       "type": "item_group",
       "subtype": "collection",
       "entries": [
-        { "item": "mdx_lebedev_p15_mag18", "prob": 5 },
-        { "item": "mdx_lebedev_p15_mag26", "prob": 3 }
+        { "item": "mdx_lebedev_p15_mag18", "prob": 1 },
+        { "item": "mdx_lebedev_p15_mag26", "prob": 1 }
       ]
   }
 ]

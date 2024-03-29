@@ -4,7 +4,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "group": "nested_mdx_lebedev_p15", "prob": 5 }
+      { "group": "nested_mdx_lebedev_p15", "prob": 1 }
     ]
   },
   {

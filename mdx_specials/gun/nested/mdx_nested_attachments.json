@@ -1,0 +1,88 @@
+[
+  {
+    "id": "nested_mdx_attachments_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "nested_mdx_sights" },
+      { "group": "nested_mdx_muzzles" },
+      { "group": "nested_mdx_stocks" },
+      { "group": "nested_mdx_lasers" },
+      { "group": "nested_mdx_grips" },
+      { "group": "nested_mdx_underbarrels" }
+    ]
+  },
+  {
+    "id": "nested_mdx_sights",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_amg_holo", "prob": 1 },
+        { "item": "mdx_truglo_reddot", "prob": 1 },
+        { "item": "mdx_rd_reddot", "prob": 1 },
+        { "item": "mdx_utg_magnifier", "prob": 1 },
+        { "item": "mdx_rs_reflex", "prob": 1 },
+        { "item": "mdx_apex_reddot", "prob": 1 },
+        { "item": "mdx_falcon_scope", "prob": 1 },
+        { "item": "mdx_bravo_scope", "prob": 1 },
+        { "item": "mdx_r3_ironsight", "prob": 1 },
+        { "item": "mdx_magpul_ironsight", "prob": 1 }
+    ]
+  },
+  {
+    "id": "nested_mdx_muzzles",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_wdr_muzzle", "prob": 1 },
+        { "item": "mdx_exos_compensator", "prob": 1 },
+        { "item": "mdx_abyss_suppressor", "prob": 1 },
+        { "item": "mdx_salvo_suppressor", "prob": 1 }
+    ]
+  },
+  {
+    "id": "nested_mdx_stocks",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_strike_tube", "prob": 1 },
+        { "item": "mdx_xts_tube", "prob": 1 },
+        { "item": "mdx_mesa_tube", "prob": 1 },
+        { "item": "mdx_ctr_stock", "prob": 1 },
+        { "item": "mdx_fab_stock", "prob": 1 },
+        { "item": "mdx_prs_stock", "prob": 1 },
+        { "item": "mdx_viper_stock", "prob": 1 },
+        { "item": "mdx_f93_stock", "prob": 1 }
+    ]
+  },
+  {
+    "id": "nested_mdx_underbarrels",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_afg2_grip", "prob": 1 },
+        { "item": "mdx_se5_grip", "prob": 1 },
+        { "item": "mdx_bcm_grip", "prob": 1 },
+        { "item": "mdx_gp25", "prob": 1 }
+    ]
+  },
+  {
+    "id": "nested_mdx_grips",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_gral_grip", "prob": 1 },
+        { "item": "mdx_tangobtl_grip", "prob": 1 }
+    ]
+  },
+  {
+    "id": "nested_mdx_lasers",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_anpeq12", "prob": 1 },
+        { "item": "mdx_x4000", "prob": 1 },
+        { "item": "mdx_klesch", "prob": 1 }
+    ]
+  }
+]    

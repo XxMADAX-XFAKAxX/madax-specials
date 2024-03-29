@@ -13,7 +13,7 @@
           },
 
     "items": {
-        "c": {"item": "cybernetic_cache_cbm", "chance": 60, "repeat": [4 , 12]}
+        "c": {"item": "mdx_cybernetic_cache_cbm", "chance": 60, "repeat": [4 , 12]}
         }
     }
 ]
