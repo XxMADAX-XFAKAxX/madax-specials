@@ -95,17 +95,17 @@
                 { "item": "arsenal_armor_collection", "chance": 20, "repeat": [ 1, 4 ]}
             ],
             "G":[
-                {"item": "mdx_special_military_base_guns", "chance": 60, "repeat": [4,10]},
-                {"item": "mdx_special_military_base_mags", "chance": 60, "repeat": [10,25]},
-                {"item": "mdx_special_military_base_mods", "chance": 60, "repeat": [4,12]},
-                {"item": "mdx_special_military_base_ammo", "chance": 60, "repeat": [100,200]}
+                {"item": "mdx_special_military_base_guns", "chance": 50, "repeat": [1,4]},
+                {"item": "mdx_special_military_base_mags", "chance": 50, "repeat": [10,10]},
+                {"item": "mdx_special_military_base_mods", "chance": 50, "repeat": [1,8]},
+                {"item": "mdx_special_military_base_ammo", "chance": 50, "repeat": [1,50]}
             ],
             "W":[
                 { "item": "mdx_special_military_base_cbm", "chance": 80, "repeat": [8,12]}
             ],
             "C":[ 
                 { "item": "mechanics", "chance": 40, "repeat": [ 4, 8 ] },
-                { "item": "SUS_welding_gear", "chance": 50, "repeat": [ 2, 6 ] }
+                { "item": "SUS_welding_gear", "chance": 40, "repeat": [ 2, 6 ] }
             ]
             },
 

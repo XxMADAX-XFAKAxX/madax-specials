@@ -1,19 +1,20 @@
 [
   {
-    "id": "nested_mdx_attachments_all",
+    "id": "mdx_attachments_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "group": "nested_mdx_sights" },
-      { "group": "nested_mdx_muzzles" },
-      { "group": "nested_mdx_stocks" },
-      { "group": "nested_mdx_lasers" },
-      { "group": "nested_mdx_grips" },
-      { "group": "nested_mdx_underbarrels" }
+      { "group": "mdx_sights_all" },
+      { "group": "mdx_muzzles_all" },
+      { "group": "mdx_stocks_all" },
+      { "group": "mdx_lasers_all" },
+      { "group": "mdx_grips_all" },
+      { "group": "mdx_handguards_all" },
+      { "group": "mdx_underbarrels_all" }
     ]
   },
   {
-    "id": "nested_mdx_sights",
+    "id": "mdx_sights_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -30,7 +31,7 @@
     ]
   },
   {
-    "id": "nested_mdx_muzzles",
+    "id": "mdx_muzzles_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -41,7 +42,15 @@
     ]
   },
   {
-    "id": "nested_mdx_stocks",
+    "id": "mdx_handguards_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+        { "item": "mdx_vltor_casvm2_handguard", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_stocks_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -56,7 +65,7 @@
     ]
   },
   {
-    "id": "nested_mdx_underbarrels",
+    "id": "mdx_underbarrels_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -67,7 +76,7 @@
     ]
   },
   {
-    "id": "nested_mdx_grips",
+    "id": "mdx_grips_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -76,7 +85,7 @@
     ]
   },
   {
-    "id": "nested_mdx_lasers",
+    "id": "mdx_lasers_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [

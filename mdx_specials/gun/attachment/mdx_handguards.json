@@ -1,0 +1,24 @@
+[
+    {
+        "id": "mdx_vltor_casvm2_handguard",
+        "type": "GUNMOD",
+        "name": { "str": "VLTOR CASV-M-2: CASV HANDGUARD" },
+        "description": "Like all CASV systems, the CASV-M-2 relies on “piggy-back” mounting to the top of a “flat-top” M4 or M16A4 upper receiver. This chassis features a removable lower handguard, which allows the access of an M203 grenade launcher. The smooth body construction allows multiple rail mounting points, adaptable to any mission needs.",
+        "weight": "410 g",
+        "volume": "252 ml",
+        "integral_volume": "0 ml",
+        "integral_weight": "32 g",
+        "price": 28500,
+        "price_postapoc": 450,
+        "install_time": "8 m",
+        "material": [ "steel", "plastic" ],
+        "symbol": ":",
+        "color": "brown",
+        "location": "mechanism",
+        "mod_targets": [ "smg", "rifle" ],
+        "handling_modifier": 3,
+        "dispersion_modifier": -3,
+        "min_skills": [ [ "weapon", 3 ], ["gun", 2] ],
+        "add_mod": [ [ "rail", 1 ] ]
+    }
+]

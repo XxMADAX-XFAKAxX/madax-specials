@@ -26,17 +26,17 @@
             "S": "f_utility_shelf",
             "p": "f_hydraulic_press",
             "C": "f_crate_c",
-            "G": "f_gunsafe_ml"
+            "G": "f_metal_crate_c"
         },
 
     "items": {
         "C": { "item": "mechanics", "chance": 80, "repeat": [ 4, 8 ] },
         "S": { "item": "SUS_welding_gear", "chance": 80, "repeat": [ 2, 4 ] },
         "G": [
-            {"item": "mdx_weaponry_warehouse_guns", "chance": 60, "repeat": [4,10]},
-            {"item": "mdx_weaponry_warehouse_mags", "chance": 60, "repeat": [10,25]},
-            {"item": "mdx_weaponry_warehouse_mods", "chance": 60, "repeat": [4,12]},
-            {"item": "mdx_weaponry_warehouse_ammo", "chance": 60, "repeat": [100,200]}
+            {"item": "mdx_weaponry_warehouse_guns", "chance": 50, "repeat": [1,4]},
+            {"item": "mdx_weaponry_warehouse_mags", "chance": 50, "repeat": [1,10]},
+            {"item": "mdx_weaponry_warehouse_mods", "chance": 50, "repeat": [1,8]},
+            {"item": "mdx_weaponry_warehouse_ammo", "chance": 50, "repeat": [1,50]}
         ]
         },
 

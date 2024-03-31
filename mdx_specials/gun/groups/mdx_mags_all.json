@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mdx_9mm_mags_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_lebedev_p15_mag18", "prob": 1 },
+      { "item": "mdx_lebedev_p15_mag26", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_450_mags_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_bravozulu_mag5", "prob": 1 },
+      { "item": "mdx_bravozulu_mag10", "prob": 1 },
+      { "item": "mdx_bravozulu_mag30", "prob": 1 },
+      { "item": "mdx_bravozulu_mag50", "prob": 1 }
+    ]
+  }
+]

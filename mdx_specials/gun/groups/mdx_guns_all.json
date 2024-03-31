@@ -1,0 +1,34 @@
+[
+  {
+    "id": "mdx_9mm_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_lebedev_p15", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_450_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_bravozulu", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_223_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_tx15", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_shot_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_mp155_ulti", "prob": 1 }
+    ]
+  }
+]    

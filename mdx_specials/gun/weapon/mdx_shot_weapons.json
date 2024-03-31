@@ -1,0 +1,43 @@
+[
+    {
+        "id": "mdx_mp155_ulti",
+        "copy-from": "shotgun_pump_3gun",
+        "looks_like": "remington_870",
+        "type": "GUN",
+        "name": { "str": "MP-155 Ultima" },
+        "description": "The MP-155 Ultima is a semi-automatic shotgun known for its reliability and versatility. It is designed for hunting and tactical use, offering smooth operation and customizable features such as interchangeable chokes and stock options. The shotgun is well-regarded for its robust construction and performance in various shooting scenarios.",
+        "variant_type": "gun",
+        "ascii_picture": "mdx_mp155_ulti_art",
+        "weight": "3500 g",
+        "volume": "2550 ml",
+        "longest_side": "1186 mm",
+        "barrel_length": "690 mm",
+        "price": 85400,
+        "price_postapoc": 3250,
+        "to_hit": -1,
+        "barrel_volume": "190 ml",
+        "material": [ "steel", "aluminum", "plastic" ],
+        "dispersion": 300,
+        "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+        "durability": 10,
+        "clip_size": 6,
+        "sight_dispersion": 480,
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 6 } } ],
+        "melee_damage": { "bash": 15 },
+        "valid_mod_locations": [
+            [ "barrel", 1 ],
+            [ "bayonet lug", 1 ],
+            [ "brass catcher", 1 ],
+            [ "grip mount", 1 ],
+            [ "mechanism", 2 ],
+            [ "muzzle", 1 ],
+            [ "loading port", 1 ],
+            [ "rail mount", 1 ],
+            [ "sights mount", 1 ],
+            [ "sling", 1 ],
+            [ "stock mount", 1 ],
+            [ "stock accessory", 2 ],
+            [ "underbarrel mount", 1 ]
+          ]
+      }
+]
