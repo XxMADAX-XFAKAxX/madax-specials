@@ -1,0 +1,42 @@
+[
+    {
+        "id": "mdx_am_17_mag30",
+        "looks_like": "stanag30",
+        "type": "MAGAZINE",
+        "name": { "str": "5.45mm 30-round AM-17 magazine" },
+        "description": "Standard magazine made for AM-17 rifles, made mostly of polymer with steel reinforcements.",
+        "variant_type": "gun",
+        "weight": "150 g",
+        "volume": "328 ml",
+        "longest_side": "200 mm",
+        "price": 2500,
+        "price_postapoc": 150,
+        "material": [ "steel", "plastic" ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [ "545x39" ],
+        "flags": [ "MAG_COMPACT" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 30 } } ]
+    },
+    {
+        "id": "mdx_am_17_mag60drum",
+        "looks_like": "stanag30",
+        "type": "MAGAZINE",
+        "name": { "str": "5.45mm 60-round drum AM-17 magazine" },
+        "description": "Extended magazine made for AM-17 rifles, made mostly of polymer with steel reinforcements.",
+        "variant_type": "gun",
+        "weight": "595 g",
+        "volume": "840 ml",
+        "longest_side": "228 mm",
+        "price": 8500,
+        "price_postapoc": 390,
+        "reload_time": 200,
+        "material": [ "steel", "plastic" ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [ "545x39" ],
+        "flags": [ "MAG_BULKY" ],
+        "melee_damage": { "bash": 3 },
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 60 } } ]
+    }
+]

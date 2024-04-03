@@ -1,0 +1,40 @@
+[
+    {
+      "id": "mdx_black_thunder_magnum",
+      "copy-from": "rifle_manual",
+      "ascii_picture": "mdx_black_thunder_magnum_art",
+      "looks_like": "modular_ar15",
+      "type": "GUN",
+      "name": { "str": "Black Thunder 500 Magnum lever" },
+      "description": "A handy but powerful lever-action rifle chambered for 500 S&W Government.  Designed for wilderness guides for defense against large predators such as grizzly bears, moose etc.",
+      "weight": "3580 g",
+      "volume": "1715 ml",
+      "longest_side": "910 mm",
+      "barrel_length": "400 mm",
+      "price": 115000,
+      "price_postapoc": 2000,
+      "to_hit": 1,
+      "material": [ "steel", "wood" ],
+      "symbol": "(",
+      "color": "light_blue",
+      "ammo": [ "500" ],
+      "ranged_damage": { "damage_type": "bullet", "amount": 3 },
+      "dispersion": 310,
+      "durability": 9,
+      "clip_size": 6,
+      "valid_mod_locations": [
+        [ "brass catcher", 1 ],
+        [ "grip", 1 ],
+        [ "mechanism", 2 ],
+        [ "muzzle", 1 ],
+        [ "sights", 1 ],
+        [ "sling", 1 ],
+        [ "rail mount", 1 ],
+        [ "stock", 1 ],
+        [ "underbarrel mount", 1 ]
+      ],
+      "flags": [ "RELOAD_ONE" ],
+      "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "500": 6 } } ],
+      "melee_damage": { "bash": 11 }
+    }
+]

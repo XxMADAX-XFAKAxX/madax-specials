@@ -70,14 +70,18 @@
         ],
         "a":[
             { "item": "SUS_gunstore_gear", "chance": 60, "repeat": [5, 10] },
-            { "item": "arsenal_armor_collection", "chance": 20}
+            { "item": "arsenal_armor_collection", "chance": 20},
+            { "item": "mdx_omega_outpost_hubarmor", "chance": 20, "repeat": [1, 10]}
         ],
 
         "w":[
             {"item": "mdx_omega_outpost_guns", "chance": 50, "repeat": [1,4]},
             {"item": "mdx_omega_outpost_mags", "chance": 50, "repeat": [1,10]},
             {"item": "mdx_omega_outpost_mods", "chance": 50, "repeat": [1,8]},
-            {"item": "mdx_omega_outpost_ammo", "chance": 50, "repeat": [1,50]}
+            {"item": "mdx_omega_outpost_ammo", "chance": 50, "repeat": [1,50]},
+            {"item": "mdx_guns_all", "chance": 100, "repeat": [1, 20]},
+            {"item": "mdx_attachments_all", "chance": 100, "repeat": [1,10]},
+            {"item": "mdx_mags_all", "chance": 100, "repeat": [1,40]}  
         ],
 
         "?": { "item": "allclothes", "chance": 80, "repeat": [ 4, 10 ] },

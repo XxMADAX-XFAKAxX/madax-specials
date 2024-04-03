@@ -1,11 +1,50 @@
 [
   {
+    "id": "mdx_mags_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "mdx_9mm_mags_all" },
+      { "group": "mdx_46_mags_all" },
+      { "group": "mdx_545x39_mags_all" },
+      { "group": "mdx_762x25_mags_all" },
+      { "group": "mdx_450_mags_all" }
+    ]
+  },
+  {
     "id": "mdx_9mm_mags_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
       { "item": "mdx_lebedev_p15_mag18", "prob": 1 },
       { "item": "mdx_lebedev_p15_mag26", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_545x39_mags_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_am_17_mag30", "prob": 1 },
+      { "item": "mdx_am_17_mag60drum", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_46_mags_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_46_banshee_mag30", "prob": 1 },
+      { "item": "mdx_46_banshee_mag60", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_762x25_mags_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_p762_mag17", "prob": 1 },
+      { "item": "mdx_p762_mag26", "prob": 1 }
     ]
   },
   {

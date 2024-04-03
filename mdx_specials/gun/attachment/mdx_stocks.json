@@ -21,14 +21,14 @@
     "handling_modifier": -14,
     "min_skills": [ [ "weapon", 1 ], [ "gun", 5 ] ],
     "melee_damage": { "bash": 4 },
-    "add_mod": [ [ "tube_stock", 1 ] ]
+    "add_mod": [ [ "stock mount", 1 ] ]
   },
   {
     "id": "mdx_xts_tube",
     "type": "GUNMOD",
     "name": { "str": "XTS mil-spec Buffer Tube" },
     "description": "The XTS mil-spec Buffer Tube is a standard-sized buffer tube designed for rifles. It serves as the mounting point for the buffer and buffer spring, crucial components of the rifle's recoil system. Made from lightweight yet durable materials like aluminum, it ensures compatibility with mil-spec lower receivers and other mil-spec components. Easy to install and available with optional features like a QD sling swivel mount, the XTS buffer tube is a reliable choice for rifle builds and upgrades.",
-    "weight": "140 g",
+    "weight": "150 g",
     "volume": "210 ml",
     "integral_volume": "0 ml",
     "integral_weight": "0 g",
@@ -45,15 +45,15 @@
     "handling_modifier": -18,
     "min_skills": [ [ "weapon", 1 ], [ "gun", 5 ] ],
     "melee_damage": { "bash": 3 },
-    "add_mod": [ [ "tube_stock", 1 ] ]
+    "add_mod": [ [ "stock mount", 1 ] ]
   },
   {
     "id": "mdx_mesa_tube",
     "type": "GUNMOD",
     "name": { "str": "Mesa Tactical Crosshair Hydraulic Buffer Tube" },
     "description": "The Mesa Tactical Crosshair Hydraulic Buffer Tube is a premium upgrade for AR-style rifles, designed to reduce recoil and improve shooting performance. It features a hydraulic buffer system that absorbs and dampens recoil forces, resulting in smoother and more controllable shooting experiences.",
-    "weight": "300 g",
-    "volume": "280 ml",
+    "weight": "190 g",
+    "volume": "250 ml",
     "integral_volume": "0 ml",
     "integral_weight": "0 g",
     "price": 7800,
@@ -69,7 +69,7 @@
     "handling_modifier": -17,
     "min_skills": [ [ "weapon", 1 ], [ "gun", 5 ] ],
     "melee_damage": { "bash": 5 },
-    "add_mod": [ [ "tube_stock", 1 ] ]
+    "add_mod": [ [ "stock mount", 1 ] ]
   },
   {
     "id": "mdx_ctr_stock",
@@ -87,10 +87,10 @@
     "material": [ "plastic", "steel" ],
     "symbol": ":",
     "color": "dark_gray",
-    "location": "tube_stock",
+    "location": "stock_mount",
     "mod_targets": [ "smg", "rifle", "shotgun", "crossbow", "launcher" ],
     "dispersion_modifier": -45,
-    "handling_modifier": 21,
+    "handling_modifier": 18,
     "melee_damage": { "bash": 7 }
   },
   {
@@ -100,7 +100,7 @@
     "description": "The Fab Defense GL-Core M4 PRO is a high-quality rifle stock designed for AR-15 and M4 platforms. It offers adjustable length of pull (LOP) and cheek weld height for personalized fit and comfort. The stock is lightweight yet durable, with a shock-absorbing mechanism to reduce felt recoil. It's compatible with mil-spec buffer tubes and various sling mounting options, making it a versatile choice for shooters looking for a reliable and ergonomic stock.",
     "weight": "300 g",
     "volume": "480 ml",
-    "integral_volume": "22 ml",
+    "integral_volume": "50 ml",
     "integral_weight": "10 g",
     "price": 17400,
     "price_postapoc": 800,
@@ -109,9 +109,9 @@
     "material": [ "plastic", "steel" ],
     "symbol": ":",
     "color": "dark_gray",
-    "location": "tube_stock",
+    "location": "stock_mount",
     "mod_targets": [ "smg", "rifle", "shotgun", "crossbow", "launcher" ],
-    "dispersion_modifier": -49,
+    "dispersion_modifier": -40,
     "handling_modifier": 20,
     "melee_damage": { "bash": 5 }
   },
@@ -122,8 +122,8 @@
     "description": "The Magpul PRS Gen3 is a precision rifle stock designed for long-range shooting and tactical applications. It features a fully adjustable length of pull and comb height, allowing shooters to customize the stock to their individual preferences and shooting style. The PRS Gen3 also incorporates a durable polymer construction with aluminum reinforcements for strength and reliability. It is compatible with a wide range of rifle platforms and is popular among precision shooters and marksmen for its versatility and performance.",
     "weight": "380 g",
     "volume": "530 ml",
-    "integral_volume": "31 ml",
-    "integral_weight": "12 g",
+    "integral_volume": "150 ml",
+    "integral_weight": "25 g",
     "price": 27500,
     "price_postapoc": 900,
     "install_time": "6 m",
@@ -131,10 +131,10 @@
     "material": [ "plastic", "steel" ],
     "symbol": ":",
     "color": "dark_gray",
-    "location": "tube_stock",
+    "location": "stock_mount",
     "mod_targets": [ "smg", "rifle", "shotgun", "crossbow", "launcher" ],
     "dispersion_modifier": -50,
-    "handling_modifier": 19,
+    "handling_modifier": 20,
     "melee_damage": { "bash": 7 }
   },
   {
@@ -143,7 +143,7 @@
     "name": { "str": "Viper PDW Stock" },
     "description": "The Viper PDW Stock is a compact and lightweight stock designed for use with AR-style rifles and pistols. It features a retractable design that allows for easy adjustment of the length of pull, making it suitable for various shooting positions and environments. The Viper PDW Stock is known for its durability, ergonomic design, and compatibility with a wide range of firearms, making it a popular choice among shooters looking for a versatile and reliable stock option.",
     "weight": "200 g",
-    "volume": "210 ml",
+    "volume": "320 ml",
     "integral_volume": "0 ml",
     "integral_weight": "0 g",
     "price": 14500,
@@ -155,10 +155,10 @@
     "color": "dark_gray",
     "location": "stock",
     "mod_targets": [ "rifle", "shotgun", "smg", "launcher", "crossbow" ],
-    "dispersion_modifier": -14,
+    "dispersion_modifier": -6,
     "handling_modifier": -2,
     "min_skills": [ [ "gun", 4 ] ],
-    "weight_multiplier": 0.75,
+    "weight_multiplier": 0.80,
     "melee_damage": { "bash": 2 }
   },
   {
@@ -167,7 +167,7 @@
     "name": { "str": "Ergo F93 Pro Stock" },
     "description": "The Ergo F93 Pro Stock is a precision-engineered stock designed for AR-15 and AR-10 platforms. It features a fully adjustable length of pull, cheek rest height, and buttpad angle, allowing for a customized fit to the shooter's preferences and shooting style. The stock is made from high-quality materials for durability and comfort during extended shooting sessions. Its ergonomic design and robust construction make it a popular choice among tactical shooters and precision rifle enthusiasts seeking enhanced performance and versatility from their firearms.",
     "weight": "380 g",
-    "volume": "305 ml",
+    "volume": "425 ml",
     "integral_volume": "5 ml",
     "integral_weight": "4 g",
     "price": 22200,
@@ -179,9 +179,9 @@
     "color": "dark_gray",
     "location": "stock",
     "mod_targets": [ "rifle", "launcher", "crossbow", "shotgun", "smg" ],
-    "dispersion_modifier": -10,
+    "dispersion_modifier": -8,
     "handling_modifier": -1,
-    "min_skills": [ [ "gun", 5 ] ],
+    "min_skills": [ [ "gun", 4 ] ],
     "melee_damage": { "bash": 2 }
   }
 ]

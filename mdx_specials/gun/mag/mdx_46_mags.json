@@ -1,0 +1,40 @@
+[
+    {
+        "id": "mdx_46_banshee_mag30",
+        "//": "Audited with ImageJ.  Weight from Manufacturer.",
+        "looks_like": "mp5mag",
+        "type": "MAGAZINE",
+        "name": { "str": "4.6x30mm Banshee 30-round magazine" },
+        "description": "An 30-round magazine for 4.6x30mm Banshee AR Pistol.",
+        "weight": "120 g",
+        "volume": "270 ml",
+        "longest_side": "185 cm",
+        "price": 6300,
+        "price_postapoc": 500,
+        "material": [ "plastic", "steel" ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [ "46" ],
+        "flags": [ "MAG_COMPACT" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "46": 30 } } ]
+      },
+      {
+        "id": "mdx_46_banshee_mag60",
+        "//": "Audited with ImageJ.  Weight from Manufacturer.",
+        "looks_like": "mp5mag",
+        "type": "MAGAZINE",
+        "name": { "str": "4.6x30mm Banshee 60-round magazine" },
+        "description": "An extended 60-round magazine for 4.6x30mm Banshee AR Pistol.",
+        "weight": "165 g",
+        "volume": "530 ml",
+        "longest_side": "210 cm",
+        "price": 9300,
+        "price_postapoc": 800,
+        "material": [ "plastic", "steel" ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [ "46" ],
+        "flags": [ "MAG_COMPACT" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "46": 60 } } ]
+      }
+]

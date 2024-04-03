@@ -75,9 +75,15 @@
         "q":[
             {"item": "mdx_special_bunker_guns", "chance": 50, "repeat": [1,4]},
             {"item": "mdx_special_bunker_mags", "chance": 50, "repeat": [1,10]},
-            {"item": "mdx_special_bunker_mods", "chance": 50, "repeat": [1,8]}
+            {"item": "mdx_special_bunker_mods", "chance": 50, "repeat": [1,8]},
+            {"item": "mdx_guns_all", "chance": 100, "repeat": [1, 20]},
+            {"item": "mdx_attachments_all", "chance": 100, "repeat": [1,10]},
+            {"item": "mdx_mags_all", "chance": 100, "repeat": [1,40]}  
         ],
-        "W": { "item": "arsenal_armor_collection", "chance": 90},
+        "W": [
+            { "item": "arsenal_armor_collection", "chance": 90},
+            { "item": "mdx_special_bunker_hubarmor", "chance": 20, "repeat": [1, 10]}
+        ],
         "f": { "item": "SUS_fridge", "chance": 100, "repeat": [1,3]}
             },
 

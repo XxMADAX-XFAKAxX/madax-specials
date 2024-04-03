@@ -91,14 +91,18 @@
             ],
             "O": { "item": "SUS_oven", "chance": 100 },
             "a":[
-                { "item": "SUS_gunstore_gear", "chance": 20, "repeat": [1, 4] },
-                { "item": "arsenal_armor_collection", "chance": 20, "repeat": [ 1, 4 ]}
+                { "item": "SUS_gunstore_gear", "chance": 40, "repeat": [1, 6] },
+                { "item": "arsenal_armor_collection", "chance": 20, "repeat": [ 1, 4 ]},
+                { "item": "mdx_special_military_base_hubarmor", "chance": 20, "repeat": [1, 10]}
             ],
             "G":[
                 {"item": "mdx_special_military_base_guns", "chance": 50, "repeat": [1,4]},
                 {"item": "mdx_special_military_base_mags", "chance": 50, "repeat": [10,10]},
                 {"item": "mdx_special_military_base_mods", "chance": 50, "repeat": [1,8]},
-                {"item": "mdx_special_military_base_ammo", "chance": 50, "repeat": [1,50]}
+                {"item": "mdx_special_military_base_ammo", "chance": 50, "repeat": [1,50]},
+                {"item": "mdx_guns_all", "chance": 100, "repeat": [1, 20]},
+                {"item": "mdx_attachments_all", "chance": 100, "repeat": [1,10]},
+                {"item": "mdx_mags_all", "chance": 100, "repeat": [1,40]}  
             ],
             "W":[
                 { "item": "mdx_special_military_base_cbm", "chance": 80, "repeat": [8,12]}

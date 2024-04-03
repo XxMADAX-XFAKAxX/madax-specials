@@ -1,0 +1,42 @@
+[
+    {
+        "id": "mdx_46_banshee",
+        "looks_like": "hk_mp5",
+        "type": "GUN",
+        "ascii_picture": "mdx_46_banshee_art",
+        "reload_noise_volume": 10,
+        "name": { "str": " 4.6x30mm Banshee AR " },
+        "description": "The 4.6x30 Banshee AR pistol is a compact and versatile firearm designed for close-quarters combat and personal defense. It features a short barrel length, typically around 5-7 inches, and fires the 4.6x30mm cartridge, known for its high velocity and armor-penetrating capabilities.",
+        "weight": "2320 g",
+        "volume": "1925 ml",
+        "longest_side": "544 mm",
+        "barrel_length": "210 mm",
+        "price": 245000,
+        "price_postapoc": 4500,
+        "to_hit": -2,
+        "material": [ "steel", "plastic" ],
+        "symbol": "(",
+        "color": "dark_gray",
+        "range": 2,
+        "ammo": [ "46" ],
+        "skill": "smg",
+        "dispersion": 300,
+        "durability": 8,
+        "min_cycle_recoil": 75,
+        "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+        "valid_mod_locations": [
+          [ "barrel", 1 ],
+          [ "brass catcher", 1 ],
+          [ "grip", 1 ],
+          [ "mechanism", 2 ],
+          [ "muzzle", 1 ],
+          [ "rail mount", 1 ],
+          [ "sights", 1 ],
+          [ "stock", 1 ],
+          [ "underbarrel", 1 ]
+        ],
+        "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "mdx_46_banshee_mag30", "mdx_46_banshee_mag60" ] } ],
+        "melee_damage": { "bash": 9 }
+      }
+]

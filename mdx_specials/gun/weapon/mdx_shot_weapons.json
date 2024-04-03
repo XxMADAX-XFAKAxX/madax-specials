@@ -11,7 +11,7 @@
         "weight": "3500 g",
         "volume": "2550 ml",
         "longest_side": "1186 mm",
-        "barrel_length": "690 mm",
+        "barrel_length": "695 mm",
         "price": 85400,
         "price_postapoc": 3250,
         "to_hit": -1,
@@ -20,8 +20,7 @@
         "dispersion": 300,
         "ranged_damage": { "damage_type": "bullet", "amount": 1 },
         "durability": 10,
-        "clip_size": 6,
-        "sight_dispersion": 480,
+        "clip_size": 7,
         "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 6 } } ],
         "melee_damage": { "bash": 15 },
         "valid_mod_locations": [

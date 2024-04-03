@@ -36,7 +36,10 @@
             {"item": "mdx_weaponry_warehouse_guns", "chance": 50, "repeat": [1,4]},
             {"item": "mdx_weaponry_warehouse_mags", "chance": 50, "repeat": [1,10]},
             {"item": "mdx_weaponry_warehouse_mods", "chance": 50, "repeat": [1,8]},
-            {"item": "mdx_weaponry_warehouse_ammo", "chance": 50, "repeat": [1,50]}
+            {"item": "mdx_weaponry_warehouse_ammo", "chance": 50, "repeat": [1,50]},
+            {"item": "mdx_guns_all", "chance": 100, "repeat": [1, 20]},
+            {"item": "mdx_attachments_all", "chance": 100, "repeat": [1,10]},
+            {"item": "mdx_mags_all", "chance": 100, "repeat": [1,40]}  
         ]
         },
 

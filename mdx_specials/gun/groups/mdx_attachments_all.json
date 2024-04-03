@@ -36,7 +36,9 @@
     "subtype": "collection",
     "entries": [
         { "item": "mdx_wdr_muzzle", "prob": 1 },
+        { "item": "mdx_fortis_muzzle", "prob": 1 },
         { "item": "mdx_exos_compensator", "prob": 1 },
+        { "item": "mdx_tactical_pac_compensator", "prob": 1 },
         { "item": "mdx_abyss_suppressor", "prob": 1 },
         { "item": "mdx_salvo_suppressor", "prob": 1 }
     ]
@@ -46,7 +48,10 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-        { "item": "mdx_vltor_casvm2_handguard", "prob": 1 }
+        { "item": "mdx_vltor_casvm2_handguard", "prob": 1 },
+        { "item": "mdx_trybe_mlok_handguard", "prob": 1 },
+        { "item": "mdx_arms_rs_mlok_handguard", "prob": 1 },
+        { "item": "mdx_midwest_mlok_handguard", "prob": 1 }
     ]
   },
   {
@@ -71,6 +76,7 @@
     "entries": [
         { "item": "mdx_afg2_grip", "prob": 1 },
         { "item": "mdx_se5_grip", "prob": 1 },
+        { "item": "mdx_heracqr_grip", "prob": 1 },
         { "item": "mdx_bcm_grip", "prob": 1 },
         { "item": "mdx_gp25", "prob": 1 }
     ]
@@ -81,6 +87,9 @@
     "subtype": "collection",
     "entries": [
         { "item": "mdx_gral_grip", "prob": 1 },
+        { "item": "mdx_trybe_grip", "prob": 1 },
+        { "item": "mdx_bravo_grip", "prob": 1 },
+        { "item": "mdx_fingergroove", "prob": 1 },
         { "item": "mdx_tangobtl_grip", "prob": 1 }
     ]
   },
@@ -91,6 +100,7 @@
     "entries": [
         { "item": "mdx_anpeq12", "prob": 1 },
         { "item": "mdx_x4000", "prob": 1 },
+        { "item": "mdx_steiner_dbal", "prob": 1 },
         { "item": "mdx_klesch", "prob": 1 }
     ]
   }

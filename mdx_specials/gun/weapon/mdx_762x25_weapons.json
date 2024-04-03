@@ -1,0 +1,29 @@
+[
+    {
+        "id": "mdx_p762",
+        "copy-from": "pistol_base",
+        "looks_like": "glock_17",
+        "type": "GUN",
+        "ascii_picture": "mdx_p762_art",
+        "name": { "str": "Dominion Arms P762" },
+        "description": "They are only made in China, and therefore not available in US. There is not a whole lot known about this pistol.",
+        "weight": "784 g",
+        "volume": "520 ml",
+        "longest_side": "232 mm",
+        "barrel_length": "114 mm",
+        "price": 30000,
+        "price_postapoc": 1850,
+        "to_hit": -1,
+        "material": [ "steel", "aluminum", "plastic" ],
+        "symbol": "(",
+        "color": "dark_gray",
+        "ammo": [ "762x25" ],
+        "dispersion": 330,
+        "durability": 8,
+        "min_cycle_recoil": 260,
+        "flags": [ "ALLOWS_BODY_BLOCK" ],
+        "weapon_category": [ "AUTOMATIC_PISTOLS" ],
+        "pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "mdx_p762_mag17", "mdx_p762_mag26" ] } ],
+        "melee_damage": { "bash": 7 }
+      }
+]

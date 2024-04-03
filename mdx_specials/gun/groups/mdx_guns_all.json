@@ -1,10 +1,57 @@
 [
   {
+    "id": "mdx_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "group": "mdx_9mm_guns_all" },
+      { "group": "mdx_46_guns_all" },
+      { "group": "mdx_762x25_guns_all" },
+      { "group": "mdx_450_guns_all" },
+      { "group": "mdx_223_guns_all" },
+      { "group": "mdx_500_guns_all" },
+      { "group": "mdx_545x39_guns_all" },
+      { "group": "mdx_shot_guns_all" }
+    ]
+  },
+  {
     "id": "mdx_9mm_guns_all",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
       { "item": "mdx_lebedev_p15", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_545x39_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_am_17", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_500_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_black_thunder_magnum", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_46_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_46_banshee", "prob": 1 }
+    ]
+  },
+  {
+    "id": "mdx_762x25_guns_all",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "mdx_p762", "prob": 1 }
     ]
   },
   {

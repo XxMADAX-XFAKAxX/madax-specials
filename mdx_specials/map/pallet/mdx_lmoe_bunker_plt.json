@@ -83,7 +83,9 @@
             "q": { "item": "SUS_oven", "chance": 80 },
             "L": [
                 {"item": "mdx_lmoe_bunker_guns", "chance": 25},
-                {"item": "mdx_lmoe_bunker_mags", "chance": 25}
+                {"item": "mdx_lmoe_bunker_mags", "chance": 25},
+                {"item": "mdx_mags_all", "chance": 50, "repeat": [1,10]},  
+                {"item": "mdx_guns_all", "chance": 50, "repeat": [1,4]}
                 ],
             "r": [ 
                 { "item": "jackets", "chance": 25 }, 
@@ -102,8 +104,8 @@
             "Q": { "item": "SUS_dishwasher", "chance": 80 },
             "U":[       
                 {"item": "mdx_lmoe_bunker_ammo", "chance": 50, "repeat": [1,50]},
-                {"item": "mdx_lmoe_bunker_mags", "chance": 50, "repeat": [1,10]}  
-                        
+                {"item": "mdx_lmoe_bunker_mags", "chance": 50, "repeat": [1,10]},
+                {"item": "mdx_mags_all", "chance": 100, "repeat": [1,40]}  
             ],
             "a":[
                 { "item": "SUS_gunstore_gear", "chance": 80, "repeat": [2, 8] },
@@ -111,7 +113,9 @@
             ],
             "S":[
                 {"item": "mdx_lmoe_bunker_guns", "chance": 50, "repeat": [1,4]},
-                {"item": "mdx_lmoe_bunker_mods", "chance": 50, "repeat": [1,8]}
+                {"item": "mdx_lmoe_bunker_mods", "chance": 50, "repeat": [1,8]},
+                {"item": "mdx_guns_all", "chance": 100, "repeat": [1, 20]},
+                {"item": "mdx_attachments_all", "chance": 100, "repeat": [1,10]}
             ]
             },
 

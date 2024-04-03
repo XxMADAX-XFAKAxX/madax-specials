@@ -1,0 +1,38 @@
+[
+    {
+        "id": "mdx_p762_mag17",
+        "looks_like": "glock17_17",
+        "type": "MAGAZINE",
+        "name": { "str": "P762 17-round magazine" },
+        "description": "An extended-capacity 26-round box magazine for use with the Dominion Arms P762 handgun.",
+        "weight": "78 g",
+        "volume": "89 ml",
+        "longest_side": "128 mm",
+        "price": 3100,
+        "price_postapoc": 180,
+        "material": [ "steel" ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [ "762x25" ],
+        "flags": [ "MAG_COMPACT" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 17 } } ]
+    },
+    {
+        "id": "mdx_p762_mag26",
+        "looks_like": "glock17_17",
+        "type": "MAGAZINE",
+        "name": { "str": "P762 26-round magazine" },
+        "description": "An extended-capacity 26-round box magazine for use with the Dominion Arms P762 handgun.",
+        "weight": "142 g",
+        "volume": "90 ml",
+        "longest_side": "186 mm",
+        "price": 4200,
+        "price_postapoc": 240,
+        "material": [ "steel" ],
+        "symbol": "#",
+        "color": "light_gray",
+        "ammo_type": [ "762x25" ],
+        "flags": [ "MAG_COMPACT" ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 26 } } ]
+    }
+]
