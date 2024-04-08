@@ -35,7 +35,7 @@
         "palettes": [ "mdx_weaponry_warehouse_plt" ],
         "terrain": { " ": "t_region_groundcover" },
         "place_vehicles": [
-            { "vehicle": "mdx_weaponry_warehouse_car", "x": [ 16 ], "y": [ 5 ], "chance": 50, "rotation": 90, "status": 0 }
+            { "vehicle": "mdx_weaponry_warehouse_car", "x": [ 16 ], "y": [ 5 ], "chance": 25, "rotation": 90, "status": 0 }
           ]
         }
     },

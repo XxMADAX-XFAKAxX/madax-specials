@@ -71,7 +71,8 @@
         "a":[
             { "item": "SUS_gunstore_gear", "chance": 60, "repeat": [5, 10] },
             { "item": "arsenal_armor_collection", "chance": 20},
-            { "item": "mdx_omega_outpost_hubarmor", "chance": 20, "repeat": [1, 10]}
+            { "item": "mdx_omega_outpost_hubarmor", "chance": 20, "repeat": [1, 10]},
+            { "item": "mdx_omega_outpost_power_armor", "chance": 1}
         ],
 
         "w":[

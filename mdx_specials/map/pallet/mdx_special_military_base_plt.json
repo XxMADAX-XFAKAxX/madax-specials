@@ -93,7 +93,8 @@
             "a":[
                 { "item": "SUS_gunstore_gear", "chance": 40, "repeat": [1, 6] },
                 { "item": "arsenal_armor_collection", "chance": 20, "repeat": [ 1, 4 ]},
-                { "item": "mdx_special_military_base_hubarmor", "chance": 20, "repeat": [1, 10]}
+                { "item": "mdx_special_military_base_hubarmor", "chance": 20, "repeat": [1, 10]},
+                { "item": "mdx_special_bunker_power_armor", "chance": 1}
             ],
             "G":[
                 {"item": "mdx_special_military_base_guns", "chance": 50, "repeat": [1,4]},

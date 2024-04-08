@@ -5,7 +5,7 @@
         "type": "GUN",
         "ascii_picture": "mdx_am_17_art",
         "reload_noise_volume": 10,
-        "name": { "str": " Kalashnikov AM-17 " },
+        "name": { "str": "Kalashnikov AM-17 " },
         "description": "The Kalashnikov Concern AM-17, is a modern cqb assault rifle designed for military and law enforcement use.",
         "weight": "2520 g",
         "volume": "1985 ml",

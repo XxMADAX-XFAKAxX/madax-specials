@@ -5,7 +5,7 @@
         "type": "GUN",
         "ascii_picture": "mdx_46_banshee_art",
         "reload_noise_volume": 10,
-        "name": { "str": " 4.6x30mm Banshee AR " },
+        "name": { "str": "4.6x30mm Banshee AR " },
         "description": "The 4.6x30 Banshee AR pistol is a compact and versatile firearm designed for close-quarters combat and personal defense. It features a short barrel length, typically around 5-7 inches, and fires the 4.6x30mm cartridge, known for its high velocity and armor-penetrating capabilities.",
         "weight": "2320 g",
         "volume": "1925 ml",

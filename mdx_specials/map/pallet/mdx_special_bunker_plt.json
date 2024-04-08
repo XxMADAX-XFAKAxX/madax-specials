@@ -82,7 +82,8 @@
         ],
         "W": [
             { "item": "arsenal_armor_collection", "chance": 90},
-            { "item": "mdx_special_bunker_hubarmor", "chance": 20, "repeat": [1, 10]}
+            { "item": "mdx_special_bunker_hubarmor", "chance": 20, "repeat": [1, 10]},
+            { "item": "mdx_special_bunker_power_armor", "chance": 1}
         ],
         "f": { "item": "SUS_fridge", "chance": 100, "repeat": [1,3]}
             },

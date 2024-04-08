@@ -1,6 +1,22 @@
 [
     {
         "type": "item_group",
+        "id": "mdx_special_military_base_power_armor",
+        "subtype": "distribution",
+        "entries":[
+            {"item": "power_armor_frame", "prob": 1},
+            {"item": "power_armor_generator", "prob": 1},
+            {"item": "power_armor_basic", "prob": 1},
+            {"item": "power_armor_helmet_basic", "prob": 1},
+            {"item": "power_armor_heavy", "prob": 1},
+            {"item": "power_armor_helmet_heavy", "prob": 1},
+            {"item": "power_armor_helmet_light", "prob": 1},
+            {"item": "power_armor_light", "prob": 1},
+            {"item": "rm13_armor", "prob": 1}
+        ]
+    },
+    {
+        "type": "item_group",
         "id": "mdx_special_military_base_hubarmor",
         "subtype": "distribution",
         "entries":[
@@ -1034,6 +1050,19 @@
           [ "aapc-mg", 1 ],
           [ "apc", 1 ],
           [ "apc-gl", 1 ]
+        ]
+    },
+    {
+        "id": "mdx_special_military_base_car_front",
+        "type": "vehicle_group",
+        "vehicles": [
+          [ "humvee", 10 ],
+          [ "humvee_gl", 10 ],
+          [ "humvee_tow", 10 ],
+          [ "flatbed_truck", 25 ],
+          [ "tatra_truck", 25 ],
+          [ "military_cargo_truck", 10 ],
+          [ "military_cargo_truck_b", 10 ]
         ]
     }
 ]

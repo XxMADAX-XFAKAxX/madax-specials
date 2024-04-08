@@ -63,8 +63,8 @@
         "palettes": [ "mdx_special_military_base_plt" ],
         "terrain": { " ": "t_region_groundcover" },
         "place_vehicles": [
-            { "vehicle": "mdx_special_military_base_car", "x": [ 8 ], "y": [ 40 ], "chance": 90, "rotation": 90 },
-            { "vehicle": "mdx_special_military_base_car", "x": [ 14 ], "y": [ 28 ], "chance": 50, "rotation": 180, "status": 0 }
+            { "vehicle": "mdx_special_military_base_car_front", "x": [ 8 ], "y": [ 44 ], "chance": 25, "rotation": 90, "status": 0 },
+            { "vehicle": "mdx_special_military_base_car", "x": [ 14 ], "y": [ 28 ], "chance": 25, "rotation": 180, "status": 0 }
           ]
         }
     },
